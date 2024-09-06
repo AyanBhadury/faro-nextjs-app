@@ -9,8 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@grafana/faro-react": "^1.9.1",
+    "@grafana/faro-web-tracing": "^1.9.1",
+    "next": "14.2.8",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.8"
+    "react-router-dom": "^6.26.1"
   }
 }

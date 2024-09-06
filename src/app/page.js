@@ -1,9 +1,13 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-
+import FaroClient from './faroclient';;
+const faroUrl = process.env.NEXT_PUBLIC_FARO_URL;
+const appName = process.env.NEXT_PUBLIC_FARO_APP_NAME;
+console.log(faroUrl)
 export default function Home() {
   return (
     <div className={styles.page}>
+       <FaroClient />
       <main className={styles.main}>
         <Image
           className={styles.logo}
