@@ -20,4 +20,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ![Screenshot 2024-09-07 at 2 56 46 AM](https://github.com/user-attachments/assets/9e44d55b-87b4-4670-b4d4-14c0b14c588b)
 
+## Faro implementation
+
+https://github.com/AyanBhadury/faro-nextjs-app/blob/main/src/app/faroclient.js
+
 
